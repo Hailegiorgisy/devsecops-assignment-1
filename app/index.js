@@ -1,1 +1,3 @@
-console.log("MediTrack Core Service Initialized - Hailegiorgis Yirgu Habtie");
+const config = require("../config/env");
+
+console.log(`Starting ${config.APP_NAME} on port ${config.PORT}`);
